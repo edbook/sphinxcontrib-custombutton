@@ -12,10 +12,9 @@ requires = ["Sphinx>=0.6", "setuptools"]
 
 setup(
     name="sphinxcontrib-custombutton",
-    version="0.1",
-    description="Unknow",
+    version="2.0",
+    description="Sphinx custom button",
     author="Unknow",
-    author_email="Unknow",
     maintainer="Benedikt Magnusson",
     maintainer_email="bsm@hi.is",
     packages=find_packages(),
