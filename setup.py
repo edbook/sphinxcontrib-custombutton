@@ -4,20 +4,22 @@
 from setuptools import setup, find_packages
 
 long_desc = """
-TODO: write description
+A custom button for Sphinx
 """
 
 requires = ["Sphinx>=0.6", "setuptools"]
 
 
 setup(
-    name="custom-button",
+    name="sphinxcontrib-custombutton",
     version="0.1",
     description="Unknow",
     author="Unknow",
     author_email="Unknow",
+    maintainer="Benedikt Magnusson",
+    maintainer_email="bsm@hi.is",
     packages=find_packages(),
     include_package_data=True,
     install_requires=requires,
-    namespace_packages=["custom_button"],
+    namespace_packages=["sphinxcontrib"],
 )
